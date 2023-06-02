@@ -4,8 +4,8 @@ The repository contains scripts for barotropic vorticity budget analysis using G
 
 | Python Notebook | Content |
 | --- | --- |
-|[Save_vorticity_Budget.ipynb](./Analysis/Save_vorticity_Budget.ipynb) | Compute vorticity budget terms from depth-integrated velocity equation diagnostics |
-| [Data_Regrid.ipynb](./Analysis/Data_Regrid.ipynb] | Regrid vorticity terms to regular lat-lon grid for coarse-graining using [FlowSieve](https://github.com/husseinaluie/FlowSieve) package |
+|[Save_Vorticity_Budget.ipynb](./Analysis/Save_Vorticity_Budget.ipynb) | Compute vorticity budget terms from depth-integrated velocity equation diagnostics |
+| [Data_Regrid.ipynb](./Analysis/Data_Regrid.ipynb) | Regrid vorticity terms to regular lat-lon grid for coarse-graining using [FlowSieve](https://github.com/husseinaluie/FlowSieve) package |
 | [Vorticity_coarse_grain.ipynb](./Analysis/Vorticity_coarse_grain.ipynb) | Scale-dependent vorticity analysis with coarse-graining |
 | [Vorticity-gcm-filters.ipynb](./Analysis/Vorticity-gcm-filters.ipynb) |  Scale-dependent vorticity analysis with [gcm-filters](https://github.com/ocean-eddy-cpt/gcm-filters) package |
 | [Bottom_pressure_torque.ipynb](./Analysis/Bottom_pressure_torque.ipynb) | Supporting information for justifying the methodology of calculating bottom pressure torque in a model |
