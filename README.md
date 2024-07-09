@@ -1,7 +1,7 @@
 # Barotropic Vorticity Budget Analysis
 
-The repository contains scripts for barotropic vorticity budget analysis using GFDL-MOM6 output (see manuscript [Khatri et al. (2024)](https://doi.org/10.1029/2023MS003813) for details). The analysis requires depth-integrated momentum equation diagnostics, which can be saved as output in the latest version of MOM6. More detals of the derivation and voricity budget analysis can be found in the [documentation Khatri and Griffies (2021)](https://hmkhatri.github.io/docs/MOM6_velocity_vorticity.pdf) and [tutorial notebook](https://mom6-analysiscookbook.readthedocs.io/en/latest/notebooks/Closing_vorticity_budget.html).
-
+The repository contains scripts for barotropic vorticity budget analysis using GFDL-MOM6 output (see manuscript [Khatri et al. (2024)](https://doi.org/10.1029/2023MS003813) for details). The analysis requires depth-integrated momentum equation diagnostics, which can be saved as output in the latest version of MOM6. More detals of the derivation and voricity budget analysis can be found in the [documentation Khatri and Griffies (2021)](https://hmkhatri.github.io/docs/MOM6_velocity_vorticity.pdf) and [tutorial notebook](https://mom6-analysiscookbook.readthedocs.io/en/latest/notebooks/Closing_vorticity_budget.html). Post-processed data required for creating figures can be downloaded from [https://doi.org/10.5281/zenodo.7920587](https://doi.org/10.5281/zenodo.7920587).
+ 
 | Python Notebook | Content |
 | --- | --- |
 |[Save_Vorticity_Budget.ipynb](./Analysis/Save_Vorticity_Budget.ipynb) | Compute vorticity budget terms from depth-integrated velocity equation diagnostics |
